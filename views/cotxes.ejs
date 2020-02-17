@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PROVA COTXES</title>
+</head>
+<body>
+	<table>
+		<tr>
+			<td><b>Marca<b></td>
+			<td><b>Model<b></td>
+		</tr>
+	<% for(var i = 0; i < cotxes.length; i++) { %>
+		<tr>
+			<td> <%= cotxes[i].marca %> </td>
+			<td> <%= cotxes[i].model %> </td>
+		</tr>
+	<% } %>
+	</table>
+</body>
+</html>
